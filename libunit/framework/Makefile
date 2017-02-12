@@ -6,7 +6,7 @@
 #    By: pbondoer <pbondoer@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/01 21:02:30 by pbondoer          #+#    #+#              #
-#    Updated: 2017/02/12 21:29:55 by pbondoer         ###   ########.fr        #
+#    Updated: 2017/02/13 00:51:36 by pbondoer         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ SRCDIRS := $(RAW_DIRS:$(SRC_DIR)/%=%)
 SRC		:= $(RAW_SRC:$(SRC_DIR)/%=%)
 OBJ		:= $(addprefix $(OBJ_DIR)/,$(SRC:.c=.o))
 
-CC		:= gcc
+CC		:= clang
 CFLAGS	:= -Wall -Wextra -Werror -pedantic -std=c99
 CFLAGS	+= -O3 -march=native -pipe -flto
 

@@ -6,13 +6,14 @@
 /*   By: pbondoer <pbondoer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/11 08:45:51 by pbondoer          #+#    #+#             */
-/*   Updated: 2017/02/13 00:31:46 by pbondoer         ###   ########.fr       */
+/*   Updated: 2017/02/13 00:55:50 by pbondoer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <signal.h>
 #include <sys/wait.h>
+#include <sys/types.h>
 #include <stdlib.h>
 #include "libunit.h"
 #include "libft.h"
